@@ -145,7 +145,7 @@ public class FriendManagementWebService implements IFriendManagermentWebService 
             ObjectMapper mapper = new ObjectMapper();
             SendMsgReq req = mapper.readValue(reqStr, SendMsgReq.class);
             System.out.println(req.getSender());
-            System.out.println(req.getTest());
+            System.out.println(req.getText());
             // 1. List Accepted and Subscribe users with req.getSender().
             //List<User> getAllConnectionUsersByStatus(String email, String[] status);
             resp.setSuccess(true);

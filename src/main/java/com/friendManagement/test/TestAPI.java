@@ -95,7 +95,7 @@ public class TestAPI {
         FriendManagementWebService service = new FriendManagementWebService();
         SendMsgReq req = new SendMsgReq();
         req.setSender("john@example.com");
-        req.setTest("Hello World! kate@example.com");
+        req.setText("Hello World! kate@example.com");
         try {
             System.out.println(service.sendMsg(JSONUtil.ObjToStr(req)));
         } catch (Exception e) {
