@@ -9,19 +9,59 @@ C. Code Structure
 2.api.dao: DB design and SQL
 3.api.entity: Request and Response Object
 4.api.service: the main logic is in FriendManagementService class.
-There are 6 APIs
-addFriend();
-listFriend();
-commonFriend();
-subscribeMsg();
-blockFriend();
-sendMsg();
-
 5.test: unit test case
-testAddFriend();
-testListFriend();
-testCommonFriend();
-testSubscribeMsg();
-testBlockFriend();
-testSendMsg();
 
+D.Webservice API
+1.addFriend
+URL:
+http://localhost:8080/FriendManagement/api/service/addFriend
+Header:
+Content-Type:application/json
+Accept:application/json
+Body:
+{"friends":["andy@example.com","john@example.com"]}
+
+2.listFriend
+URL:
+http://localhost:8080/FriendManagement/api/service/listFriend
+Header:
+Content-Type:application/json
+Accept:application/json
+Body:
+{"email":"andy@example.com"}
+
+3.commonFriend
+URL:
+http://localhost:8080/FriendManagement/api/service/commonFriend
+Header:
+Content-Type:application/json
+Accept:application/json
+Body:
+{"friends":["andy@example.com","john@example.com"]}
+
+4.subscribeMsg
+URL:
+http://localhost:8080/FriendManagement/api/service/subscribeMsg
+Header:
+Content-Type:application/json
+Accept:application/json
+Body:
+{"requestor":"lisa@example.com","target":"john@example.com"}
+
+5.blockFriend
+URL:
+http://localhost:8080/FriendManagement/api/service/blockFriend
+Header:
+Content-Type:application/json
+Accept:application/json
+Body:
+{"requestor":"andy@example.com","target":"john@example.com"}
+
+6.sendMsg
+URL:
+http://localhost:8080/FriendManagement/api/service/sendMsg
+Header:
+Content-Type:application/json
+Accept:application/json
+Body:
+{"sender":"john@example.com","text":"Hello World! kate@example.com"}
