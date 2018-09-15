@@ -1,5 +1,5 @@
 package com.friendManagement.api.response;
 
-public class commonFriendResp extends ListFriendResp {
+public class CommonFriendResp extends ListFriendResp {
 
 }

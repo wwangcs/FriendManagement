@@ -1,1 +1,4 @@
 # FriendMangement
+JAX-RS
+Jackson
+

@@ -5,6 +5,7 @@ import java.util.List;
 public class ListFriendResp extends BasicResp{
     
     private List<String> friends;
+    private int count;
     
     public List<String> getFriends() {
         return friends;
@@ -14,14 +15,12 @@ public class ListFriendResp extends BasicResp{
         this.friends = friends;
     }
 
-    public String getCount() {
+    public int getCount() {
         return count;
     }
 
-    public void setCount(String count) {
+    public void setCount(int count) {
         this.count = count;
     }
-
-    private String count;
 
 }

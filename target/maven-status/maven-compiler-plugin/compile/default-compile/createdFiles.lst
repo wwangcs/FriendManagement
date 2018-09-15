@@ -1,0 +1,17 @@
+com\friendManagement\api\Service\FriendManagementService.class
+com\friendManagement\api\Service\IFriendManagermentService.class
+com\friendManagement\api\response\SendMsgResp.class
+com\friendManagement\api\FriendManagementApi.class
+com\friendManagement\api\response\ListFriendResp.class
+com\friendManagement\api\request\AddFriendReq.class
+com\friendManagement\api\response\BlockFriendResp.class
+com\friendManagement\api\response\CommonFriendResp.class
+com\friendManagement\api\response\BasicResp.class
+com\friendManagement\api\request\SubscribeReq.class
+com\friendManagement\api\response\SubscribeResp.class
+com\friendManagement\api\response\AddFriendResp.class
+com\friendManagement\api\request\BasicReq.class
+com\friendManagement\api\request\BlockFriendReq.class
+com\friendManagement\api\request\SendMsgReq.class
+com\friendManagement\api\request\CommonFriendReq.class
+com\friendManagement\api\request\ListFriendReq.class

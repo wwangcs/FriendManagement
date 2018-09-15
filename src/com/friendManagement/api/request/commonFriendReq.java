@@ -1,5 +1,5 @@
 package com.friendManagement.api.request;
 
-public class commonFriendReq extends AddFriendReq{
+public class CommonFriendReq extends AddFriendReq{
 
 }
