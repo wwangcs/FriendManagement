@@ -11,7 +11,15 @@ C. Code Structure
 4.api.service: the main logic is in FriendManagementService class.
 5.test: unit test case
 
-D.Webservice API
+How To Test:
+Setup Web Service in Local
+1. checkout apache-tomcat-7.0.90.zip
+2. Unzip to any place
+3. Make sure install JDK and put "JAVA_HOME" in Windows Environment.
+4. Run \apache-tomcat-7.0.90\bin\startup.bat
+
+Open Chrome install ARC app or any other RESTful webservice tools
+The details of Webservice API like below.
 1.addFriend
 URL:
 http://localhost:8080/FriendManagement/api/service/addFriend
