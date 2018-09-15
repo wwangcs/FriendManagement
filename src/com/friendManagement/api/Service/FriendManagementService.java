@@ -1,4 +1,4 @@
-package com.friendManagement.api.Service;
+package com.friendManagement.api.service;
 
 import java.util.ArrayList;
 import java.util.List;

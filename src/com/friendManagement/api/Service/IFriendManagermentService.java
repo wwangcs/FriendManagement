@@ -1,4 +1,4 @@
-package com.friendManagement.api.Service;
+package com.friendManagement.api.service;
 
 
 public interface IFriendManagermentService {

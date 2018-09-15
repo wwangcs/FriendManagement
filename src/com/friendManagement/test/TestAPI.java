@@ -3,7 +3,6 @@ package com.friendManagement.test;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.friendManagement.api.Service.FriendManagementService;
 import com.friendManagement.api.common.JSONUtil;
 import com.friendManagement.api.entity.request.AddFriendReq;
 import com.friendManagement.api.entity.request.BlockFriendReq;
@@ -11,6 +10,7 @@ import com.friendManagement.api.entity.request.CommonFriendReq;
 import com.friendManagement.api.entity.request.ListFriendReq;
 import com.friendManagement.api.entity.request.SendMsgReq;
 import com.friendManagement.api.entity.request.SubscribeReq;
+import com.friendManagement.api.service.FriendManagementService;
 
 public class TestAPI {
 
