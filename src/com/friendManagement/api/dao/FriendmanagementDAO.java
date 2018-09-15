@@ -39,7 +39,7 @@ public interface FriendmanagementDAO {
     //select u.* from user u 
     //inner join relationship r on u.user_id = r.user_one_id
     //where u.email = ? and status in (?)
-    List<User> getAllConnectionByStatus(String email, String[] status);
+    List<User> getAllConnectionUsersByStatus(String email, String[] status);
     
     //update relationship set status = status 
     //where user_one_id = (select user_id from user where email = ? )
